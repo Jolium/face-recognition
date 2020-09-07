@@ -7,23 +7,12 @@ from kivy.clock import Clock
 from kivy.graphics.texture import Texture
 from kivy.uix.boxlayout import BoxLayout
 from kivy.core.window import Window
-# from kivy.uix.screenmanager import Screen, ScreenManager
-# from kivy.uix.button import Button
-# from kivy.uix.dropdown import DropDown
-# from kivy.uix.floatlayout import FloatLayout
-# from kivy.uix.camera import Camera
-# from kivy.uix.label import Label
-# from kivy.uix.popup import Popup
-# from kivy.uix.textinput import TextInput
-# from kivy.uix.widget import Widget
-# from kivy.utils import platform
 
 import face_recognition
 import cv2
 import numpy as np
 from pathlib import Path
 import platform
-# import os.path
 
 import encoder
 import hash_sha1
